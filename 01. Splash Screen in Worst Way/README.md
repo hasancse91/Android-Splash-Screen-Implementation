@@ -34,6 +34,6 @@ public class SplashScreenActivity extends AppCompatActivity {
 
 ## Drawbacks of this implementation
 
-    - When this App first time run or run after cleaning the recent app list, this app will show a weird blank page before splash screen. We expect the Splash screen design at app startup. But when it'll run from `cold boot` then it will take few seconds to show properly our splash screen
-    - All time users have to wait a constant time (here 3 seconds). And obviously no one like to wait
-    - Need an extra activity class
+* When this App first time run or run after cleaning the recent app list, this app will show a weird blank page before splash screen. We expect the Splash screen design at app startup. But when it'll run from `cold boot` then it will take few seconds to show properly our splash screen
+* All time users have to wait a constant time (here 3 seconds). And obviously no one like to wait
+* Need an extra activity class and also an `xml` layout
