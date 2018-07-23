@@ -18,7 +18,9 @@ All most every App shows a Splash screen at first of the App. Most of the tutori
 * Good for App performance
 * Good for User Experience
 
-
-
+## Some tutorial references
+* [The (Complete) Android Splash Screen Guide](https://android.jlelse.eu/the-complete-android-splash-screen-guide-c7db82bce565)
+* [Right Way to create Splash Screen on Android](https://android.jlelse.eu/right-way-to-create-splash-screen-on-android-e7f1709ba154)
+* [Create a Splash Screen on Android : the Right Way !](https://medium.com/@ssaurel/create-a-splash-screen-on-android-the-right-way-93d6fb444857)
 
 
