@@ -2,6 +2,8 @@
 <layer-list xmlns:android="http://schemas.android.com/apk/res/android"
     android:opacity="opaque">
 
+    <!--Also available: @drawable:launcher_screen_with_background-->
+
     <!--Background color of your Splash Screen-->
     <item android:drawable="@android:color/holo_purple" />
 
