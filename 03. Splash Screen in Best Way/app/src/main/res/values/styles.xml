@@ -8,4 +8,13 @@
         <item name="colorAccent">@color/colorAccent</item>
     </style>
 
+    <!--Splash screen theme. You should use it in your manifest file for your Splash Activity-->
+    <style name="AppTheme.Launcher">
+        <item name="android:windowBackground">@drawable/launcher_screen_with_logo</item> <!--Also available: @drawable:launcher_screen_with_logo-->
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowActionBar">false</item>
+        <item name="android:windowFullscreen">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+    </style>
+
 </resources>
