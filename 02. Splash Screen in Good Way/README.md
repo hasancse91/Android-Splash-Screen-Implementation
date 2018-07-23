@@ -5,6 +5,7 @@
 Normally when your App launchs from cold boot (after cleaning the app from recent list) then it shows a blank screen for few seconds (depends on device specification). You'll find many Apps shows blank screen before showing the Splash screen. If you follow this Splash screen guidelines, you can avoid the weird blank page problem before showing your awesome `Splash`.
 
 
+## Implementation
 In this implementation we also need a separate `SplashScreenActivity`. But no need any `XML layout` file for this `Activity`. You'll set a custom theme from `AndroidManifest.xml` for `SplashScreenActivity`. That `theme` contains our Splash Screen design. Inside `onCreate()` method of `SplashScreenActivity` we'll call `startActivity()` method with proper `Intent` to start our next desired Activity and `finish()` the current `SplashScreenActivity`.
 
 The custom `theme` for launcher Activity (Splash Activity) is given below. You'll find it inside `styles.xml` file in my project.
@@ -89,6 +90,6 @@ public class SplashScreenActivity extends AppCompatActivity {
 }
 ```
 
-We have no `xml` layout file for Splash screen. That's why I didn't call `setContentView()` method. When this activity will be called then firstly load a UI from this Activity's `theme`. We have set the `theme` of this activity from manifest file. We spefified in custom theme file about the UI background. So when our App will start then it'll show the background (or background color and app logo) from custom them and then `onCreate()` method will be called. Then `MainActivity` will be started by calling `startActivity()` method. After that, `finish()` will be called to destry `SplashScreenActivity`.
+We have no `xml` layout file for Splash screen. That's why I didn't call `setContentView()` method. When this activity will be called then firstly load a UI from this Activity's `theme`. We have set the `theme` of this activity from manifest file. We specified in custom theme file about the UI background. So when our App will start then it'll show the background (or background color and app logo) from custom them and then `onCreate()` method will be called. Then `MainActivity` will be started by calling `startActivity()` method. After that, `finish()` will be called to destry `SplashScreenActivity`.
 
 If you don't set the custom theme from manifest you may face the weird blank page problem before showing your Splash screen. Because, at that time your App can't show anything from your theme before calling `onCreate()` method. When your app is cleaned from recent used app list, then it will be launched as `cold boot`. It may takes a few seconds to call `onCreate()`. In this time your app show nothing but a blank page. You can check it from the first project of this repo (the worst implementation one).
