@@ -14,12 +14,14 @@ Almost every App shows a Splash screen at first of the App. Most of the tutorial
 * Good for App performance
 * Good for User Experience
 * For some use cases this approach is the best choice
+* Instant Splash design show, without any weird white/black screen after launching app and before showing splash screen (check screenshot)
 <img src="https://raw.githubusercontent.com/hasancse91/Android-Splash-Screen-Implementation/master/data/02.Android-Splash-Screen(good-implementation).gif" width="250" height="444" />
 
 ### [3. Android Splash screen in Best way](https://github.com/hasancse91/Android-Splash-Screen-Implementation/tree/master/03.%20Splash%20Screen%20in%20Best%20Way)
 * This way is little harder to implement comparatively first one
 * Good for App performance
 * Good for User Experience
+* Instant Splash design show, without any weird white/black screen after launching app and before showing splash screen (check screenshot)
 <img src="https://raw.githubusercontent.com/hasancse91/Android-Splash-Screen-Implementation/master/data/03.Android-Splash-Screen(best-implementation).gif" width="250" height="444" />
 
 ## Some tutorial references
