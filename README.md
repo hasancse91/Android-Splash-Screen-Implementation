@@ -1,6 +1,10 @@
 # Android-Splash-Screen-Implementation
 
-All most every App shows a Splash screen at first of the App. Most of the tutorials and blogs says us to implement the splash screen in worst way. After passing some times on Android development I found three ways to implement a Splash Screen. You'll find them in this repository.
+This is the Splash Screen of our App. I implemented this Splash screen in worst way implementation. Notice the **white screen after launching and before splash screen**. We'll fix this issue in second and third project of this repositories.
+
+<img src="https://raw.githubusercontent.com/hasancse91/Android-Splash-Screen-Implementation/master/data/Android-Splash-Screen.gif" width="250" height="444" />
+
+Almost every App shows a Splash screen at first of the App. Most of the tutorials and blogs says us to implement the splash screen in worst way. After passing some times on Android development I found three ways to implement a Splash Screen. You'll find them in this repository.
 
 ### [1. Android Splash screen in worst way](https://github.com/hasancse91/Android-Splash-Screen-Implementation/tree/master/01.%20Splash%20Screen%20in%20Worst%20Way)
 * This way is simple to implement
