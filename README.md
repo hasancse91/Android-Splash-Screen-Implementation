@@ -1,6 +1,6 @@
 # Android-Splash-Screen-Implementation
 
-This is the Splash Screen of our App. I implemented this Splash screen in worst way implementation. Notice the **white screen after launching and before splash screen**.
+This is the Splash Screen of our App. I implemented this Splash screen in worst way implementation. Notice the **white screen after launching and before splash screen**. We'll fix this issue in second and third project of this repositories.
 
 <img src="https://raw.githubusercontent.com/hasancse91/Android-Splash-Screen-Implementation/master/data/Android-Splash-Screen.gif" width="250" height="444" />
 
