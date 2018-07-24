@@ -1,7 +1,7 @@
 # Android Splash Screen in Right way (Good Implementation)
 
+<img src="https://raw.githubusercontent.com/hasancse91/Android-Splash-Screen-Implementation/master/data/02.Android-Splash-Screen(good-implementation).gif" width="250" height="444" />
 
-## Benifit
 Normally when your App launchs from cold boot (after cleaning the app from recent list) then it shows a blank screen for few seconds (depends on device specification). You'll find many Apps shows blank screen before showing the Splash screen. If you follow this Splash screen guidelines, you can avoid the weird blank page problem before showing your awesome `Splash`.
 
 
