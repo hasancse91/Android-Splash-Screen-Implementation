@@ -1,5 +1,7 @@
 # Android Splash Screen in bad way (worst implementation)
 
+<img src="https://raw.githubusercontent.com/hasancse91/Android-Splash-Screen-Implementation/master/data/01.Android-Splash-Screen(worst-implementation).gif" width="250" height="444" />
+
 You'll find most of the Splash Screen tutorial in this way. It is the simplest implementation for beginners. But it's not good for App's performance.
 
 In this way we delay our users until a constant time (here 3 seconds) using `Thread`. After this delay time we start another activity and `finish` the `SplashScreenActivity`. The source code of `SplashScreenActivity` is given below.
